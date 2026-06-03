@@ -9,7 +9,7 @@ app.get("/chicken",(req, res) => {
   res.send("Sure sir, I can make you some chicken");
 });
 app.get("/idli",(req, res) => {
-    var customize_idli={
+    var customized_idli={
         name:"idli",
         price:20,
         quantity:2,
@@ -19,10 +19,10 @@ app.get("/idli",(req, res) => {
         is_sambar:true
     }
   //res.send("Sure sir, I can make you some Idli");
-  res.send(customize_idli);
+  res.send(customized_idli);
 });
 
 app.listen(3000,()=> {
-  console.log('Example app listening on port 3000!')
+  console.log('Example app listening on port 3000 !')
 })
   
